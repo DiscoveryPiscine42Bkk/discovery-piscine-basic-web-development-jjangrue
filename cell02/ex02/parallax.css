@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+  }
+  
+  .parallax1 {
+    background-image: url(https://hips.hearstapps.com/vidthumb/images/lilo-and-stitch-trailer-67d1c247193f2.jpg?crop=0.721xw%3A1.00xh%3B0.0847xw%2C0&resize=810%3A*&quality=70); 
+  }
+  
+  .parallax2 {
+    background-image: url(https://storage.googleapis.com/techsauce-prod/ugc/uploads/2022/7/1658826428_Toy_Story.jpg);
+  }
+  
+  .content {
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }

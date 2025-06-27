@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>พอร์ตโฟลิโอของฉัน</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ffffd6;
+        }
+        header {
+            background-color: #ffafb0;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: white;
+        }
+        h2 {
+            color: #ff9997;
+        }
+        .project {
+            border-bottom: 1px solid white;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+            background-color: white;
+            color: white;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #ffafb0;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .navbar button {
+            background-color: #ffafb0;
+            color: white;
+            padding: 12px 20px;
+            margin: 0 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .navbar button:hover {
+            background-color: #ff9997;
+        }
+        .navbar button:focus {
+            outline: none;
+        }
+
+        /* Add some spacing below navbar */
+        body {
+            padding-top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Fixed Navbar with buttons -->
+    <nav class="navbar">
+        <button onclick="location.href='http://127.0.0.1:5500/wed.html'">Home</button>
+        <button onclick="location.href='#about'">About Me</button>
+        <button onclick="location.href='#experience'">Experience</button>
+        <button onclick="location.href='#contact'">Contact</button>
+    </nav>
+
+    <header>
+        <h1 style="font-size: 48px;">Portfolio</h1>
+        <p style="font-size: 18px;">Jutamanee Jangrueng</p>
+        <img src="https://cdn.discordapp.com/attachments/859422579827802124/1387714151425773650/IMG_6978.jpg?ex=685e5904&is=685d0784&hm=abb2877c9ff6ab4f90be41d231e4b7b3b39751abba0bd6b384881b0df181d5d8&" width="300"/>
+    </header>
+
+    <section id="about">
+        <h2>About me</h2>
+        <p>Name: น.ส.จุฑามณี แจ้งเรือง</p>
+        <p>Nickname: ปรางค์</p>
+        <p>Birthday: วันศุกร์ 10 กันยายน 2547</p>
+        <p>Blood group: B</p>
+        <p>Nationality: ไทย</p>
+        <p>Address: 205/15 ซอยสายทิพย์ สุขุมวิท56 เขตพระโขนง แขวงบางจาก 10260</p>
+        <p>Talent: ด้านดนตรี (กีต้าร์ ขิม) ด้านกีฬา (บาสเก็ตบอล แบดมินตัน)</p>
+        <p>Hobby: ดูซีรี่ย์ นอน</p>
+        <p>Motto: just life, we're still good without luck</p>
+    </section>
+
+    <section id="experience">
+        <h2>Education</h2>
+        <ul>
+            <li>ปริญญาตรี : คณะบริหารธุรกิจ สาขาเศรษฐศาสตร์</li>
+            <li>มัธยม : โรงเรียนพระโขนงพิทยาลัย</li>
+        </ul>
+
+        <h2>Certificates</h2>
+        <div class="project">
+            <p>ได้ปฏิบัติหน้าที่คณะกรรมการสภานักเรียนโรงเรียนพระโขนงพิทยาลัย</p>
+            <img src="https://cdn.discordapp.com/attachments/1386587189785399368/1387368626595692564/IMG_3076.jpg?ex=685f1178&is=685dbff8&hm=daf15c8de9931f69b4dbd2edecbb81d826c0ba0b5a823f9f22ea42705322251c&" width="300"/>
+            <p>การมีผลสัมฤทธิ์ทางการเรียนดี</p>
+            <img src="https://cdn.discordapp.com/attachments/859422579827802124/1387660056371265596/IMG_3075.jpg?ex=685f7822&is=685e26a2&hm=9a89f52a777b07971d437a666965e02c69a2203c74caf41e0228bae335813c35&" width="300"/>
+            <p>การเข้าร่วมกิจกรรมค่ายบูรณาการวิทยาศาสตร์ คณิตศาสตร์ และภาษาอังกฤษ</p>
+            <img src="https://cdn.discordapp.com/attachments/859422579827802124/1387659179241635932/IMG_7597.jpg?ex=685f7751&is=685e25d1&hm=edfeba280629a89ce0f7a754f12221f745406718b61ccfc0cacca518dd81ba19&" width="300"/>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacts</h2>
+        <ul>
+            <li>Phone: 0984622457</li>
+            <li>Instagram: Jutamanee___</li>
+            <li>Id line: pran100947</li>
+            <li>Gmail: jtm.prangggg@gmail.com</li>
+        </ul>
+    </section>
+</body>
+</html>
